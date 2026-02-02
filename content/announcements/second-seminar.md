@@ -1,40 +1,25 @@
 ---
-# Seminar Title: e.g., *Non-equilibrium dynamics in quantum spins*
-title: "Second Seminar"
-
-# speaker Name:  e.g., *Prof. Mario Rossi*
-speaker: "Adriano Amaricci"
-
-# Speaker institution:  e.g., *University of Trieste*
-institution: "CNR IOM"
-
-# Seminar date: e.g., *2006-01-02 (YYYY-MM-DD)*
-date: '2026-02-03'
-
-# Seminar  time: *e.g., 15:00*
+title: "Collective Resistance and the Total Liberation of Electrons from Oppressive Periodic Potentials"
+speaker: "Prof. E. V. Partini"
+institution: " Institute for Non-Equilibrium Dynamics, University of Val d'Ossola"
+date: '2026-04-25'
 time: "14:00"
-
-# Seminar location: *e.g., Euler Lecture Hall, Leonardo Building, ICTP*
-location: "aula A sissa"
-
-draft: false
+location: "aula A, SISSA"
 ---
 
 # Abstract
 
-<!--
-Write the abstract here.
+Traditional models of electron transport often assume a passive
+acceptance of the underlying lattice potential. However, in this talk,
+we present a novel "Resistance Model" (\(R_{1945}\)) where electrons
+transition from a state of total confinement to a regime of collective
+liberation. By tuning the interaction parameters to the critical
+April-25 threshold, we observe a spontaneous breakdown of the
+oppressive Mean Field symmetry. This leads to the formation of a
+"Partisan Liquid" phase, characterized by the emergence of uncoupled
+carriers that refuse to obey the rigid dictates of the external
+field. We will discuss how these liberated states propagate through
+the material, effectively "clearing" the entire sample of impurities
+and restoring a state of fundamental structural freedom across all 20
+regions of the simulated grid.
 
-Example:
-
-Non-equilibrium phenomena are ubiquitous in quantum many-body systems.
-In this talk, I will discuss recent progress on driven quantum spin
-systems, focusing on relaxation, emergent hydrodynamics, and transport.
-
-LaTeX is supported, e.g. $E = mc^2$.
--->
-
-Non-equilibrium phenomena are ubiquitous in quantum many-body systems.
-In this talk, I will discuss recent progress on driven quantum spin
-systems, focusing on relaxation, emergent hydrodynamics, and transport.
-$E = mc^2$.
