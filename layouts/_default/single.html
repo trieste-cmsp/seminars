@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<h3>Speaker: {{ .Params.speaker }} ({{ .Params.institution }})</h3>
+
+<p>
+<strong>Date:</strong> {{ .Date.Format "Monday, 02 Jan 2006" }}<br>
+<strong>Time:</strong> {{ .Params.time }} <br>
+<strong>Location:</strong> {{ .Params.location }}
+</p>
+
+<hr>
+
+<article>
+{{ .Content }}
+</article>
+
+<br>
+  <a href="/">← Back to list</a>
+{{ end }}

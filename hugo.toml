@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Trieste CMSP Seminars'
+
+# [module]
+#   [[module.imports]]
+#     path = "github.com/hugo-sid/hugo-blog-awesome"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trieste CMSP Seminars</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Trieste CMSP Seminars</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Seminar</title>
+      <link>http://localhost:1313/announcements/second-seminar/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/announcements/second-seminar/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;&#xA;&lt;!--&#xA;Write the abstract here.&#xA;&#xA;Example:&#xA;&#xA;Non-equilibrium phenomena are ubiquitous in quantum many-body systems.&#xA;In this talk, I will discuss recent progress on driven quantum spin&#xA;systems, focusing on relaxation, emergent hydrodynamics, and transport.&#xA;&#xA;LaTeX is supported, e.g. $E = mc^2$.&#xA;--&gt;&#xA;&lt;p&gt;Non-equilibrium phenomena are ubiquitous in quantum many-body systems.&#xA;In this talk, I will discuss recent progress on driven quantum spin&#xA;systems, focusing on relaxation, emergent hydrodynamics, and transport.&#xA;$E = mc^2$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Seminar</title>
+      <link>http://localhost:1313/announcements/first-seminar/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/announcements/first-seminar/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam&#xA;fermentum lacus neque, ut consectetur erat pellentesque in. Vestibulum&#xA;ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia&#xA;curae; Morbi eleifend eleifend cursus. Integer feugiat commodo quam,&#xA;accumsan scelerisque dolor consequat ac. Proin accumsan quam ac&#xA;vehicula laoreet. Donec efficitur, augue in tincidunt vestibulum, mi&#xA;erat vehicula felis, a aliquam ex orci vel metus. Vivamus imperdiet&#xA;dolor tortor, sed mollis dui suscipit non. Fusce mattis egestas&#xA;pulvinar. Sed in dui quis tortor scelerisque fringilla. Nam varius leo&#xA;magna, sit amet gravida enim varius sit amet. Donec ac lacus&#xA;elit. Morbi placerat sollicitudin bibendum. Pellentesque ut lorem sit&#xA;amet velit aliquet suscipit eget at nulla. Nulla et turpis aliquet,&#xA;semper augue nec, iaculis ligula. Pellentesque vel massa quis mi&#xA;dignissim ornare eget id elit. Praesent mollis, mauris eu porta&#xA;molestie, elit metus auctor libero, id mattis ex diam ut leo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

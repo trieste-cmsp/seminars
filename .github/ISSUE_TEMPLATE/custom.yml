@@ -1,0 +1,69 @@
+name: 📢 New Seminar Announcement  
+description: Submit seminar details to update the site and send to the mailing list.
+title: "[Seminar, Colloquium, Talk, Group Meeting, ...]"
+labels: ["review"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Seminar Title
+      placeholder: "e.g., Non-equilibrium dynamics in quantum spins"
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Speaker Name
+      placeholder: "e.g., Prof. Mario Rossi"
+    validations:
+      required: true
+  - type: input
+    id: institute
+    attributes:
+      label: Speaker Institution
+      placeholder: "e.g., University of Trieste"
+    validations:
+      required: true
+  - type: input
+    id: date 
+    attributes:
+      label: Seminar Date
+      placeholder: "Seminar date in YYYY-MM-DD format, e.g., 2026-03-15"
+    validations:
+      required: true
+  - type: input
+    id: time 
+    attributes:
+      label: Seminar Time
+      placeholder: "Seminar time in 24h format, e.g.: 14:00"
+    validations:
+      required: true      
+  - type: input
+    id: place
+    attributes:
+      label: Location
+      placeholder: "e.g., Euler Lecture Hall, Leonardo Buidling, ICTP"     
+    validations:
+      required: true
+  - type: input
+    id: place
+    attributes:
+      label: Zoom Link
+      placeholder: "Zoom link (if any): e.g., zoom.us/meetings/gfg8gf7ag7"     
+    validations:
+      required: false
+  - type: input
+    id: place
+    attributes:
+      label: Contact Info
+      placeholder: "Contact Info (if any): e.g., John Doe (doe@units.it)"     
+    validations:
+      required: false            
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: LaTeX is supported! (e.g., $E=mc^2$)
+      placeholder: "Describe the talk here..."
+    validations:
+      required: true

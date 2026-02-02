@@ -1,0 +1,92 @@
+{{ define "main" }}
+
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ .Site.Title }}</title>
+
+<style>
+  body { font-family: Arial, sans-serif; line-height: 1.5; padding: 2rem; }
+  h1, h2 { margin-bottom: 0.5rem; }
+  a.button {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1a73e8;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 1rem 0;
+  }
+  ul { list-style: none; padding-left: 0; }
+  li { margin-bottom: 0.5rem; }
+</style>
+</head>
+
+<body>
+<div style="text-align: center;">
+<p>
+<img src="/images/ICTP.png" alt="ICTP" style="height:50px;margin-right:10px;">
+<img src="/images/SISSA.png" alt="SISSA" style="height:35px; margin-right:10px;">
+<img src="/images/UniTS.png" alt="UniTS" style="height:55px; margin-right:10px;">
+<img src="/images/CNR-IOM.png" alt="IOM" style="height:50px; margin-right:10px;">
+</p>
+
+<!-- <h1>Trieste CM SP Meetings</h1> -->
+<h1>{{ .Site.Title }}</h1>
+
+
+<p>
+Welcome to the Trieste Cond Mat & Stat Phys seminar announcement
+service.<br>
+<br>
+Announce a seminar using the link below:
+</p>
+
+<!-- Pulsante Google Form -->
+<div style="text-align:center;">
+  <a href="https://forms.gle/3XT3qna9dFiixfQR8" target="_blank" class="button">
+    Announce a new seminar
+  </a>
+</div>
+</div>
+
+<hr>
+<hr>
+
+{{ $today := now }}
+
+
+<h2>Oncoming Seminars</h2>
+<ul>
+  {{ range where .Site.RegularPages "Section" "announcements" }}
+  {{ if gt .Date $today }}
+  <li>
+  <strong>{{ .Date.Format "02 Jan 2006" }}</strong>: 
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+  — <em>{{ .Params.speaker }}</em>
+  </li>
+  {{ end }}
+  {{ end }}
+</ul>
+
+<hr style="border: 0; border-top: 2px solid #ccc;">
+
+<h2>Past Seminars</h2>
+<ul>
+  {{ $today := now }}
+  {{ range where .Site.RegularPages "Section" "announcements" }}
+  {{ if lt .Date $today }}
+  <li>
+  <strong>{{ .Date.Format "02 Jan 2006" }}</strong>: 
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+  — <em>{{ .Params.speaker }}</em>
+  </li>
+  {{ end }}
+  {{ end }}
+</ul>
+
+
+{{ end }}
