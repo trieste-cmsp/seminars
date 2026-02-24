@@ -6,7 +6,7 @@ This is the website repository for the unified announcement service of the Conde
 
 1. Submit a [*New Announcement*](https://forms.gle/3XT3qna9dFiixfQR8) using the link-button at the [Trieste-CMSP](https://trieste-cmsp.github.io/seminars/) website.
 2. The announce will be reviewd by the admins.
-3. Once accepted an automatic email will be delivered to any interested CMSP scientist in Trieste.
+3. Once accepted an automatic email will be delivered to any interested CMSP scientist in Trieste and a web page created in the website.
 
 
 
