@@ -2,20 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:58271/announcements/</loc>
-    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+    <loc>https://trieste-cmsp.github.io/seminars/categories/</loc>
   </url><url>
-    <loc>http://localhost:58271/announcements/second-seminar/</loc>
-    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+    <loc>https://trieste-cmsp.github.io/seminars/tags/</loc>
   </url><url>
-    <loc>http://localhost:58271/</loc>
-    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:58271/announcements/first-seminar/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:58271/categories/</loc>
-  </url><url>
-    <loc>http://localhost:58271/tags/</loc>
+    <loc>https://trieste-cmsp.github.io/seminars/</loc>
   </url>
 </urlset>
