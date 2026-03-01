@@ -4,6 +4,7 @@ title = 'Trieste CMSP Seminars'
 
 [params]
 description = "Official Trieste CMSP Seminars website. Upcoming seminars, speakers and archives."
+enableRobotsTXT = true
 
 # [module]
 #   [[module.imports]]
@@ -18,3 +19,7 @@ description = "Official Trieste CMSP Seminars website. Upcoming seminars, speake
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+
+
+
