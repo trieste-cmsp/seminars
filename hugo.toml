@@ -2,6 +2,9 @@ baseURL = 'https://trieste-cmsp.github.io/seminars/'
 languageCode = 'en-us'
 title = 'Trieste CMSP Seminars'
 
+[params]
+description = "Official Trieste CMSP Seminars website. Upcoming seminars, speakers and archives."
+
 # [module]
 #   [[module.imports]]
 #     path = "github.com/hugo-sid/hugo-blog-awesome"
