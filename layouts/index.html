@@ -25,7 +25,7 @@
   a.button-secondary {
   display: inline-block;
   padding: 6px 12px;
-  font-size: 13px;
+  font-size: 14px;
   background-color: #D7EBFA;
   color: #2c3e50;
   border-left: 4px solid #3b6ea5;  /* vertical accent */
@@ -34,9 +34,10 @@
   }    
   a.button-secondary:hover {
   background-color: #AFD7F5;
-  }
-  ul { list-style: none; padding-left: 0; }
-  li { margin-bottom: 0.5rem; }
+}
+ul { list-style: none; padding-left: 0; }
+li { margin-bottom: 0.5rem; }
+
 </style>
 </head>
 
@@ -62,7 +63,8 @@ Announce a seminar using the link below:
 
 <!-- Pulsante Google Form -->
 <div style="text-align:center;">
-  <a href="https://forms.gle/3XT3qna9dFiixfQR8" target="_blank" class="button">
+  <a href="https://forms.gle/3XT3qna9dFiixfQR8" target="_blank"
+  class="button">
     Announce a new seminar
   </a>
 </div>
@@ -79,6 +81,11 @@ Use the form at this link :
    class="button-secondary">
    Subscribe
 </a>
+or scan the QR code:
+<img src="{{ "images/cmsp-subscribe-qr.png" | relURL }}" 
+     alt="Subscribe QR code"
+     style="height:70px; vertical-align: middle; margin-left:6px;">
+<br>
 <br>
 <em>Within 24 hours you will receive an invitation email from <tt>ts-csmp-seminars@googlegroups.com</tt>.<br>
     Please accept it to activate your subscription (check the spam). <br>
