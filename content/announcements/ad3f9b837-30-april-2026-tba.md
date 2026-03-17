@@ -10,4 +10,3 @@ location: "Aula 131, SISSA, Main Building"
 # Abstract
 
 TBA
-  
