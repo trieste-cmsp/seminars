@@ -1,0 +1,21 @@
+name: Scheduled Build
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/hugo-action@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo
